@@ -1,0 +1,367 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #eeeeee;
+}
+
+.logo {
+    color: #b5190d;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3em;
+    font-weight: 900;
+    letter-spacing: -2px;
+}
+
+.input-group {
+    margin: 10px 0;
+}
+
+.input-group input {
+    border-radius: 25px;
+}
+
+.input-group button {
+    border-radius: 25px;
+    background-color: white;
+}
+
+.mi-cuenta {
+    font-size: 20pt;
+    border-left: 1px solid #dadada;
+    border-right: 1px solid #dadada;
+    padding-left: 10px;
+}
+
+.mi-cuenta button{
+    font-size: 10pt;
+    padding-left: 0px;
+}
+
+.like, .cart, .person {
+    cursor: pointer;
+}
+
+.header .cart {
+    width: 20px;
+}
+
+.nav {
+    background-color: #b5190d;
+    color: white;
+}
+
+.nav .row {
+    padding: 0 30px;
+}
+
+.nav .categories {
+    font-size: 10pt;
+    cursor: pointer;
+    width: 140px;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav .categories:hover {
+    background-color: #9c0e07;
+}
+
+.nav .dropdown {
+    height: 100%;
+}
+
+.nav .dropdown button {
+    background-color: #9c0e07;
+    font-size: 10pt;
+    border-radius: 0px;
+    border: 0px;
+    padding: 10px 20px;
+}
+
+.nav .dropdown button:hover {
+    background-color: #7c0c06;
+}
+
+.section .producto {
+    border: 1px solid #c5c5c5;
+    margin: 30px;
+    padding: 0px;
+    overflow: hidden;
+    min-width: 300px;
+}
+
+.section .producto img {
+    padding: 10px;
+}
+
+.fit-image{
+    width: 100%;
+}
+
+.section .info {
+    margin-top: 30px;
+}
+
+.section .info h2 {
+    font-size: 20pt;
+}
+
+.section .info h3 {
+    font-size: 10pt;
+    color: #b6180d;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.section .precios h4 {
+    font-size: 22pt;
+    font-weight: bold;
+    color: #b6180d;
+    padding-left: 0px;
+    margin-left: 15px;
+}
+
+.section .precios h5 {
+    font-size: 12pt;
+    color: #7c7c7c;
+    text-decoration: line-through;
+    margin-left: 15px;
+}
+
+.section .precios h6 {
+    font-size: 12pt;
+    color: #249401;
+    margin-left: 15px;
+}
+
+.section .pagos {
+    margin-left: 15px;
+}
+
+.section .pagos h3 {
+    color: black;
+    margin: 0 10px;
+}
+
+.section .pagos a {
+    font-size: 10pt;
+    text-decoration: underline;
+    margin-left: 15px;
+    margin-top: -2px;
+}
+
+.section .compra {
+    margin-top: 40px;
+}
+
+.section .btn {
+    background-color: #b6180d;
+    color: white;
+    border-radius: 0px;
+    padding: 15px 80px;
+    margin-right: 10px;
+    margin-left: 15px;
+}
+
+.section .like, .section .envelope {
+    padding: 10px;    
+    font-size: 1.5em;
+    color: #99989d;
+}
+
+.section .info {
+    border-bottom: 1px solid #99989d;
+}
+
+.section .datos-envio {
+    margin-left: 15px;
+}
+
+.section .envio-gratis h3 {
+    background-color: #fdac39;
+    padding: 4px 8px;
+    font-size: 10pt;
+}
+
+.section .envio-gratis a {
+    font-size: 10pt;
+    margin-left: 10px;
+    text-decoration: underline;
+}
+
+.section .retiro h3, .section .envio h3 {
+    font-weight: bold;
+    font-size: 11pt;
+    color: black;
+    margin: 0px;
+}
+
+.section .retiro a, .section .envio a {
+    font-size: 11pt;
+    text-decoration: underline;
+    margin: 0px;
+}
+
+.section .retiro-svg {
+    font-size: 20pt;
+    color: #99989d;
+    margin-right: 10px
+}
+
+.section .envio-svg {
+    font-size: 20pt;
+    color: #99989d;
+    margin-left: 25px;
+    margin-right: 10px;
+}
+
+.section .info {
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+.article {
+    margin-top: 25px;
+}
+
+.article h1 {
+    font-size: 16pt;
+    cursor: pointer;
+    padding: 10px 0px;
+    margin: 15px;
+}
+
+#descripcion {
+    color: #b6180d;
+    border-bottom: 5px #b6180d solid;
+}
+
+.article p {
+    margin: 15px 50px;
+}
+
+.items {
+    margin-top: 50px;
+}
+
+.items h1 {
+    font-size: 16pt;
+    margin-bottom: 20px;
+}
+
+.items .box {
+    padding: 0;
+    margin: 0;
+}
+
+.items .box img {
+    border: 1px solid #c5c5c5;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.items .articulos {
+    margin: 0px 50px;
+}
+
+.items h3 {
+    font-size: 11pt;
+    margin: 20px 0px;
+    cursor: pointer;
+}
+
+.items h4 {
+    font-size: 14pt;
+    font-weight: bold;
+    color: #b6180d;
+}
+
+.items h5 {
+    font-size: 9pt;
+    color: #7c7c7c;
+    text-decoration: line-through;
+}
+
+.items h6 {
+    font-size: 9pt;
+    color: #249401;
+}
+
+.footer {
+    background-color: #f2f2f2;
+    margin-top: 40px;
+}
+
+.footer .row {
+    margin-left: 10px;
+}
+
+.footer .col-md-3 {
+    margin-top: 25px;
+}
+
+.footer .phone-icon img {
+    width: 25px;
+}
+
+.footer .telefonos {
+    color: #b6180d;
+    padding-left: 10px;
+}
+
+.footer .telefonos h5 {
+    font-size: 12pt;
+}
+
+.footer .telefonos h6 {
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+.footer .contacto h5 {
+    font-size: 10pt;
+    font-weight: bold;
+    color: #343434;
+}
+
+.footer .contacto h6 {
+    font-size: 10pt;
+    color: #343434;
+}
+
+.footer .form-control {
+    border-radius: 0px;
+}
+
+.footer .btn {
+    padding: 8px 30px;
+    margin-left: 5px;
+    font-size: 10pt;
+    color: white;
+    background-color: #b6180d;
+    border-radius: 0px;
+}
+
+.end {
+    margin-top: 50px;
+    border-top: 1px solid #a7a7a7;
+    padding-top: 20px;
+    color: #a7a7a7;
+}
+
+.end h6 {
+    font-size: 10pt;
+    margin-left: 20px;
+}
+
+.end img {
+    width: 50px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
