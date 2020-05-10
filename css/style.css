@@ -95,8 +95,14 @@
     min-width: 300px;
 }
 
-.section .producto img {
-    padding: 10px;
+.section .imagen-grande img {
+    padding: 0px 20px;
+}
+
+.section .miniaturas img {
+    width: 60px;
+    margin-bottom: 20px;
+    cursor: pointer;
 }
 
 .fit-image{
@@ -143,6 +149,14 @@
     margin-left: 15px;
 }
 
+.section .card {
+    border: 0;
+}
+
+.section .card img {
+    width: 25px;
+}
+
 .section .pagos h3 {
     color: black;
     margin: 0 10px;
@@ -168,10 +182,16 @@
     margin-left: 15px;
 }
 
+.section .btn:hover {
+    background-color: #97160c;
+    color: white;
+}
+
 .section .like, .section .envelope {
     padding: 10px;    
     font-size: 1.5em;
     color: #99989d;
+    cursor: pointer;
 }
 
 .section .info {
@@ -186,19 +206,38 @@
     background-color: #fdac39;
     padding: 4px 8px;
     font-size: 10pt;
+    z-index: 2;
+}
+
+.section .envio-gratis #transform1 {
+    background-color: #fdac39;
+    transform: skewX(20deg);
+    position: relative;
+    left: -12px;
+    z-index: 1;
+}
+
+.section .envio-gratis #transform2 {
+    background-color: #fdac39;
+    transform: skewX(-20deg);
+    position: relative;
+    left: -29px;
+    z-index: 1;
 }
 
 .section .envio-gratis a {
     font-size: 10pt;
-    margin-left: 10px;
     text-decoration: underline;
+}
+
+.section .envio-retiro {
+    margin-top: 15px;
 }
 
 .section .retiro h3, .section .envio h3 {
     font-weight: bold;
     font-size: 11pt;
     color: black;
-    margin: 0px;
 }
 
 .section .retiro a, .section .envio a {
@@ -207,13 +246,13 @@
     margin: 0px;
 }
 
-.section .retiro-svg {
+.section .retiro-img {
     font-size: 20pt;
     color: #99989d;
     margin-right: 10px
 }
 
-.section .envio-svg {
+.section .envio-img {
     font-size: 20pt;
     color: #99989d;
     margin-left: 25px;
