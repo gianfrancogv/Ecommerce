@@ -1,3 +1,4 @@
+//Variables
 let descripcion = document.getElementById("descripcion");
 let fichaTecnica = document.getElementById("ficha-tecnica");
 let btnCompra = document.querySelector("#boton-compra");
@@ -9,6 +10,8 @@ let carrito = document.querySelector(".cart");
 let spinner = document.createElement('div');
 let texto = document.createElement('div');
 
+
+//Event Listeners
 descripcion.addEventListener('click', function(){
     this.style.color = '#b6180d';
     this.style.borderBottom = '5px #b6180d solid';
@@ -25,6 +28,7 @@ fichaTecnica.addEventListener('click', function(){
 
 btnCompra.addEventListener('click', addSpinner);
 
+//Funciones
 function addSpinner() {
     texto.innerHTML = 'CARGANDO DATOS';
     texto.setAttribute("class", "cargando-datos");

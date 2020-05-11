@@ -439,6 +439,8 @@ nav .nav-item:hover {
     font-weight: bold;
 }
 
+/* Media queries*/
+
 @media (max-width: 767px) {
     header {
         display: flex !important;
@@ -457,5 +459,20 @@ nav .nav-item:hover {
 
     nav .navbar {
         justify-content: center !important;
+    }
+}
+
+@media (max-width: 900px) {
+    .footer .phone-icon {
+        display: none;
+    }
+
+    .footer .telefonos {
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .footer .phone {
+        padding: 0px;
     }
 }
